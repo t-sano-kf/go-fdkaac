@@ -2,8 +2,9 @@ name: release
 
 on:
   push:
-    - master
-    - main
+    branches: 
+      - master
+      - main
 
 jobs:
   release:
