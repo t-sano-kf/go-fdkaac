@@ -23,7 +23,7 @@ image:
   FROM --platform=$TARGETPLATFORM debian:bullseye-slim
   COPY --platform=$TARGETPLATFORM +build/fdkaac-include /fdkaac-include
   COPY --platform=$TARGETPLATFORM +build/fdkaac-lib /fdkaac-lib
-  SAVE IMAGE --push ghcr.io/izumisy/fdkaac:latest
+  SAVE IMAGE --push ghcr.io/t-sano-kf/fdkaac:latest
 
 install:
   LOCALLY
